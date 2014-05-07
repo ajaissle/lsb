@@ -1,0 +1,59 @@
+LSB Specification Proposal
+
+State: Problem Statement
+------
+
+
+Problem Statement:
+------------------
+
+It can be difficult for application providers to install their products on Linux
+systems that have security features turned on compared to those with the
+features turned off. Documentation is needed to guide application providers
+for how to build their applications and installers for systems with SELinux and
+AppArmor in use as well as for non-secured systems.
+
+Many customers today want to use their preferred applications in a secure environment.
+A number of commercial applications are programmed to use more system facilities
+than are allowed to them in the secured environment. To complete the installation and
+run successfully, they advise the customer to turn off the security feature. The
+customer is then forced to make a decision between a more secure environment and
+using the application. Clearer advice on how to set up applications in secured
+environments would assist application providers in working within the environment.
+
+Ubuntu and openSUSE ship with AppArmor turned on by default.
+Fedora ships with SELinux turned on by default.
+
+
+(Proposed) Solution:
+--------------------
+
+Create guideline documentation for applications for installing and running within
+typical SELinux and AppArmor environments compared to environments not using them.
+
+
+Solution Discussion Links:
+--------------------------
+
+Provide links to at least 3 distribution mailing lists where this topic has
+been discussed.
+
+
+Solution Rationale:
+-------------------
+
+Provide a brief description how the documented solution was derived.
+
+
+Distributions Support:
+----------------------
+
+A list of distributions that have pledged to adhere to this specification and
+integrate the test into their QA suite.
+
+
+Verification Test:
+------------------
+
+Documentation, testing not required
+
